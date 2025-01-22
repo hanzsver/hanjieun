@@ -1,6 +1,5 @@
 "use client";
 
-import styled, { createGlobalStyle, ThemeProvider } from "styled-components";
 import { pxToRem } from "../utils/pxToRem";
 
 // 동적 스타일
@@ -73,7 +72,7 @@ export default function Home() {
 
             {/* Skills */}
             <Spacing size="l">
-              <SubTitle>소타이틀2</SubTitle>
+              <SubTitle>소타이틀</SubTitle>
             </Spacing>
           </Limit>
         </SubContent>

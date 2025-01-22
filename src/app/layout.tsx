@@ -1,6 +1,6 @@
 "use client";
 
-import { createGlobalStyle, ThemeProvider } from "styled-components";
+import { ThemeProvider } from "styled-components";
 import localFont from "next/font/local";
 import "./globals.css";
 
