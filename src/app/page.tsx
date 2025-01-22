@@ -1,5 +1,6 @@
 "use client";
 
+import styled from "styled-components";
 import { pxToRem } from "../utils/pxToRem";
 
 // 동적 스타일
