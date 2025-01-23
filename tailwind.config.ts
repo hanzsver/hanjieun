@@ -9,8 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "var(--color-background)",
+        foreground: "var(--color-foreground)",
+      },
+      fontFamily: {
+        ibm: [
+          "var(--font-ibm-plex-mono)",
+          "Courier New",
+          "Courier",
+          "monospace",
+        ],
       },
     },
   },
