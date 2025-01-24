@@ -1,7 +1,11 @@
-"use client";
+import { Metadata } from "next";
+import { ibmPlexMono } from "../utils/fonts";
+import "../styles/globals.css";
 
-import { ibmPlexMono } from "./styles/fonts";
-import "./globals.css";
+export const metadata: Metadata = {
+  title: "웹 퍼블리셔 한지은",
+  description: "웹 퍼블리셔 한지은의 이력서입니다.",
+};
 
 export default function RootLayout({
   children,
