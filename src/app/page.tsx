@@ -6,7 +6,6 @@ import { Limit, Spacing } from "../styles/common";
 import ContactBar from "../components/ContactBar";
 import TitleSection from "../components/TitleSection";
 import WorkSection from "../components/WorkSection";
-import SkillsSection from "../components/SkillsSection";
 import Toast from "../components/Toast";
 
 // 동적 스타일
